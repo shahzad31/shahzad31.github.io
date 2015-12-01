@@ -1,0 +1,11 @@
+<!--Layout of a sticker item-->
+
+<div class="col-xs-6 col-centered col-min sticker-main">
+  <div class="sticker-item" ng-mouseover="mouseOver=true" ng-mouseleave="mouseOver=false">
+
+    <span class="glyphicon glyphicon-remove" title="Remove this sticker" ng-click="removeSticker(sticker)"  ng-show="mouseOver" aria-hidden="true"></span>
+        <h4 class="headline"> {{sticker.title}} </h4>
+
+        <image class="sticker-image" ng-src={{sticker.dataURL}}  draggable-img></image>
+  </div>
+</div>

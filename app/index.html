@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="styles/svg.select.css">
+  <link rel="stylesheet" href="styles/resume.css">
+
+</head>
+<body ng-app="photoStickerApp">
+<!--[if lte IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div class="header" id="mainHeader">
+  <div class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#/">Muhammad Shahzad</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+        <ul class="nav navbar-nav" ng-controller="HeaderController">
+          <li ng-class="{ active: isActive('/')}" ><a href="#/" >Home</a></li>
+          <li ng-class="{ active: isActive('/resume')}" ><a href="#/resume" >Resume</a></li>
+          <li ng-class="{ active: isActive('/work')}" ><a href="#/work" >Work</a></li>
+          <li ng-class="{ active: isActive('/about')}"  ><a ng-href="#/resume">About</a></li>
+          <li ng-class="{ active: isActive('/contact')}" ><a ng-href="#/contact">Contact</a></li>
+        </ul>
+        <div class="contactInfo">
+          <div class="emailMe" title="Email Me" style=" background: url(images/emailIcon.png) no-repeat 0 0;">
+            <a href="mailto:me@mshahzad.com?Subject=Hello%20Shahzad" target="_blank"></a>
+          </div>
+          <div class="emailMe" title="My LinkedIn Profile" style="  background: url(images/linkedin.png) no-repeat 0 0;" >
+            <a href="https://pk.linkedin.com/in/muhammad-shahzad-56089b30" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div>
+  <div ng-view="">
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <p><span class="glyphicon glyphicon-heart"></span> From Muhammad Shahzad</p>
+  </div>
+</div>
+
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+  !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+      (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+    r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+  }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-XXXXX-X');
+  ga('send', 'pageview');
+</script>
+
+<!-- build:js(.) scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-ui-bootstrap/ui-bootstrap.js"></script>
+<script src="bower_components/angular-ui-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/jquery-ui/jquery-ui.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+<script src="svgjs/svg.min.js"></script>
+
+<!-- build:js({.tmp,app}) scripts/scripts.js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/main.js"></script>
+<script src="scripts/controllers/about.js"></script>
+<script src="scripts/controllers/contact.js"></script>
+<script src="scripts/controllers/modal-controller.js"></script>
+<script src="scripts/controllers/ResumeController.js"></script>
+<script src="scripts/controllers/WorkController.js"></script>
+<script src="scripts/svg.draggable.js"></script>
+<script src="scripts/directives/image-svg.js"></script>
+<script src="scripts/directives/draggable-img.js"></script>
+<script src="scripts/svg.export.js"></script>
+<script src="scripts/svg.select.js"></script>
+<script src="scripts/svg.resize.js"></script>
+<script src="scripts/directives/file-select.js"></script>
+<script src="scripts/directives/sticker-item.js"></script>
+<!-- endbuild -->
+
+
+
+</body>
+</html>

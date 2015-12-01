@@ -1,0 +1,36 @@
+<div class="container" image-svg>
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="jumbotron svg-area">
+        <!--using ng-class instead of ng-show because it was disturbing layout-->
+        <button ng-class="{'hideStartOverClass': !showStartOver}" class=" start-over-button btn btn-danger col-xs-2 pull-right"  ng-click="startOver()">Start Over</button>
+
+        <div class="svgContainer">
+          <svg id="mainSvg"></svg>
+        </div>
+        <div class="btnArea">
+          <input type="file" class="col-xs-10" id="fileBtn" name="img" accept="image/*"/>
+          <div>
+            <div class="btn-group" uib-dropdown is-open="status.isopen">
+              <button id="single-button" type="button" class="btn btn-success" uib-dropdown-toggle ng-disabled="disabled">
+                Export As <span class="caret"></span>
+              </button>
+              <ul class="uib-dropdown-menu" role="menu" aria-labelledby="single-button">
+                <li role="menuitem"><a ng-click="exportImage()">image/png</a></li>
+                <li role="menuitem"><a ng-click="exportSvg()">svg+xml</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="jumbotron sticker-area">
+        <button class="btn btn-md btn-primary" ng-click="open()" type="submit">Upload new sticker</button>
+        <div class="stickers">
+          <sticker-item ng-repeat="(index, sticker) in stickersCache"></sticker-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

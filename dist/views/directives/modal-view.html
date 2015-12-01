@@ -1,0 +1,28 @@
+<div class="modal-header">
+  <h3 class="modal-title">Upload New Sticker</h3>
+</div>
+<div class="modal-body">
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label for="inputSticker" class="col-sm-3 control-label">Sticker Name</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" ng-model="file.title" id="inputSticker" placeholder="Sticker Name" autofocus="" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputSticker" class="col-sm-3 control-label">File Source</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" ng-model="file.src"  id="fileName" placeholder="File Name" required ng-readonly="true">
+      </div>
+      <form action="" method="post" enctype="multipart/form-data">
+        <div class="upload col-sm-4">
+          <input type="file" name="upload" ng-file-select/>
+        </div>
+      </form>
+    </div>
+  </form>
+</div>
+<div class="modal-footer">
+  <button class="btn btn-primary" type="submit" ng-click="submit()">Submit</button>
+  <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

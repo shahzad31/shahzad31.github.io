@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LessManager">
+    <option name="lessProfileMap">
+      <map>
+        <entry key="1">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="C:\Users\mshahzad\Desktop\Blipper Task\PhotoStickerApp\app\styles" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="id" value="1" />
+              <option name="includePattern" value="*.less" />
+              <option name="lessDirPath" value="C:\Users\mshahzad\Desktop\Blipper Task\PhotoStickerApp\app\styles" />
+              <option name="name" value="less4" />
+            </LessProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

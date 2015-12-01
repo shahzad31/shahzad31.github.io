@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/PhotoStickerApp/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/PhotoStickerApp/test/spec/controllers/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/ResumeController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/WorkController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/about.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/contact.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/controllers/modal-controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/credits.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/draggable-img.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/file-select.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/image-svg.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/sticker-item.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/resume.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/resume.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/about.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/contact.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/directives/image-svg.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/directives/modal-view.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/directives/sticker-item.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/main.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/resume.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/views/work.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,180 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  /* Make the masthead heading the same height as the navigation */
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 5px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media (min-width: 1300px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  .container {
+    width: 1285px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 800px;
+  }
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+/*    margin-bottom: 30px;*/
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .container .sticker-area {
+    padding: 10px 0 0 0;
+  }
+}
+.svgContainer svg{
+  width: 100%;
+  height: 90%;
+  min-height: 400px;
+  border: 2px #ccc dashed;
+}
+.sticker-area{
+  height: 100%;
+  min-height:520px;
+  max-height:520px;
+  max-width: 356px;
+}
+.svg-area{
+  height: 100%;
+  min-height:520px;
+  padding-top: 15px;
+}
+div.upload {
+  width: 87px;
+  height: 38px;
+  background: url(../images/upload.png);
+  overflow: hidden;
+}
+
+div.upload input {
+  display: block !important;
+  width: 87px !important;
+  height: 37px !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+}
+.modal-footer{
+ text-align: center;
+}
+form .ng-invalid.ng-touched  {
+  border: 1px solid red !important;
+}
+.sticker-image{
+  width: 150px;
+  height: 150px;
+}
+.btnArea{
+  width: 100%;
+}
+.svgContainer{
+  height: 100%;
+}
+.sticker-item{
+  border: 1px solid #cecece;
+  padding: 1pc 0px;
+  width: 160px;
+}
+.sticker-main{
+  padding: 0;
+}
+.stickers{
+  padding: 10px 0 0 10px;
+  height: 100%;
+  max-height: 465px;
+  overflow-y:scroll ;
+}
+.start-over-button{
+  margin-bottom:10px;
+}
+h4{
+  color: #FBB95B;
+  border: 1px #CEC3C3 solid;
+  margin: 11px 20px;
+}
+.hideStartOverClass{
+  visibility: hidden;
+}
+.sticker-item .glyphicon-remove{
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  color: red;
+  cursor: pointer;
+}
+.emailMe{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: inline-block;
+  background-size:contain !important; ;
+}
+.emailMe a{
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.contactInfo{
+  float: right;
+}
+.gitIcon{
+  background: url(../images/soc_git.png);
+}
