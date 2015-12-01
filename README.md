@@ -1,4 +1,6 @@
-# photo-sticker-app
+# mshahzad.com source code
+
+Github repositery for mshahzad.com source code
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.14.0.
