@@ -38,8 +38,12 @@ angular.module('photoStickerApp', [
         controller: 'ResumeCtrl'
       }).
       when('/work', {
-        templateUrl: 'views/work.html',
+        templateUrl: 'views/work-samples.html',
         controller: 'WorkCtrl'
+      }).
+    when('/photosticker', {
+        templateUrl: 'views/photo-sticker.html',
+        controller: 'PhotoStickCtrl'
       }).
       when('/contact', {
         templateUrl: 'views/contact.html',
