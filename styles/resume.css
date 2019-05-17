@@ -1,0 +1,160 @@
+#main {
+  position: relative;
+  z-index: 15;
+  height: 100%;
+  background: #fafafa url(../images/noise.png);
+  border-top: 1px solid #eaeaea;
+  -webkit-box-shadow: 0 50px 150px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 50px 150px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 50px 150px 0 rgba(0, 0, 0, 0.1);
+}
+.heading {
+  margin: 75px 0;
+  text-align: center;
+}
+header {
+  background-color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  border-right: 1px solid #eaeaea;
+  overflow: visible;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: -201px;
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10000;
+  display: inline;
+  float: left;
+  -webkit-transition: left 0.3s;
+  -moz-transition: left 0.3s;
+  -o-transition: left 0.3s;
+  transition: left 0.3s;
+}
+#main {
+  overflow: hidden;
+  min-height: 100%;
+  width: calc(100% - 200px);
+  margin-left: 200px;
+  display: inline;
+  float: left;
+}
+#main h3 {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 4px;
+}
+#main ul {
+  margin: 0;
+  padding: 0;
+}
+#main h3,
+#main h4 {
+  margin: 0;
+}
+#main h4 {
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 2px;
+  border: 0;
+}
+#main .content h4 {
+  line-height: 28px;
+}
+#main section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+#main .border {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #DDD;
+}
+#main .position .subtitle {
+  display: inline-block;
+  margin-left: 20px;
+}
+#main p {
+  text-align: justify;
+}
+header .navbar {
+  display: none;
+}
+header nav {
+  position: relative;
+  top: 50%;
+  margin-top: -242px;
+}
+.resumeHeader h3 {
+  color: #000;
+}
+.resumeHeader ul {
+  list-style: none outside;
+  margin: 0;
+  padding: 0;
+}
+.subtitle {
+  display: block;
+  font: 10px/18px "ff-tisa-web-pro", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.resumeHeader nav li {
+  margin-bottom: 65px ;
+}
+.resumeHeader nav li a {
+  color: #c33;
+  display: block;
+  text-decoration: none;
+}
+.resumeHeader nav li a:hover {
+  color: #c33;
+}
+.resumeHeader nav li h3:hover {
+  color: #c33;
+}
+.resumeHeader nav li .subtitle:hover {
+  color: #c33;
+}
+.resumeHeader nav li a:hover {
+  color: #c33;
+}
+.resumeHeader nav li a:hover h3 {
+  color: #c33;
+}
+.resumeHeader nav li a:hover .subtitle {
+  color: #c33;
+}
+.resumeHeader nav li a:hover svg {
+  fill: #cc3333;
+}
+.resumeHeader nav li > a h3,
+header nav li > a span {
+  color: #000;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.resumeContainer {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
